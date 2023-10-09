@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quadro de Notas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            border-collapse: collapse;
+            /* width: 500px; */
+        }
+
+        caption {
+            background-color: darkgray;
+            font-size: 1.3em;
+            font-weight: bolder;
+            color: white;
+            padding: 10px;
+        }
+
+        th, td {
+            border: 1px solid black;
+            text-align: center;
+            padding: 10px;
+        }
+
+        #vazia {
+            background-color: white;
+            border: none;
+        }
+
+        th {
+            background-color: gray;
+            color: white;
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1>Quadro de Notas</h1>
+    <table>
+        <thead>
+            <tr>
+                <th id="vazia"></th>
+                <th>Nota 1</th>
+                <th>Nota 2</th>
+                <th>Média</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>Frontend Estático</th>
+                <td>8</td>
+                <td>9</td>
+                <td>8.5</td>
+            </tr>
+            <tr>
+                <th>Lógica de Programação</th>
+                <td>7</td>
+                <td>8</td>
+                <td>7.5</td>
+            </tr>
+
+        </tbody>
+    </table>
+</body>
+</html>

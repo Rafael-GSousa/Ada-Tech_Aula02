@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pacotes Turísticos</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            border-collapse: collapse;
+            /* width: 500px; */
+        }
+
+        caption {
+            background-color: darkgray;
+            font-size: 1.3em;
+            font-weight: bolder;
+            color: white;
+            padding: 10px;
+        }
+
+        th, td {
+            border: 1px solid black;
+            text-align: center;
+            padding: 10px;
+        }
+
+        th {
+            background-color: gray;
+            color: white;
+        }
+
+        tbody tr:nth-child(even) {
+            background-color: lightgray;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption>
+            Pacotes Turísticos
+        </caption>
+        <thead>
+            <tr>
+                <th scope="col">Destino</th>
+                <th scope="col">Duração da Viagem</th>
+                <th colspan="2" scope="colgroup">Atividades Incluídas</th>
+                <th>Preço por Pessoa</th>
+                <th>Vagas Disponíveis</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th rowspan="2">Paris</th>
+                <td rowspan="2">7 Dias</td>
+                <td>Museu do Louvre</td>
+                <td>Torre Eiffel</td>
+                <td rowspan="2">R$ 5000,00</td>
+                <td rowspan="2">6</td>
+            </tr>
+            <tr>
+                <td>Restaurantes</td>
+                <td>Passeio de Barco</td>
+            </tr>
+            <tr>
+                <th rowspan="2">Cancún</th>
+                <td rowspan="2">5 Dias</td>
+                <td>Praias</td>
+                <td>Resorts</td>
+                <td rowspan="2">R$ 4500,00</td>
+                <td rowspan="2">5</td>
+            </tr>
+            <tr>
+                <td>Baladas</td>
+                <td>Passeio de Lancha</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
