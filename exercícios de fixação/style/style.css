@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'Marvel';
+    src: url('fonts/Strange Marvel.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1, h2 {
+    font-family: 'Marvel', cursive;
+}
